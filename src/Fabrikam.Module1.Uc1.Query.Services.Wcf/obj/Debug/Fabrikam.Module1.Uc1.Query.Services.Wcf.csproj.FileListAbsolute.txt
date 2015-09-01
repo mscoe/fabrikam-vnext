@@ -1,0 +1,6 @@
+D:\Temp\EA-Fabrikam\dev\Fabrikam.Module1.Uc1.Query\Fabrikam.Module1.Uc1.Query.Services.Wcf\bin\Fabrikam.Module1.Uc1.Query.Services.Wcf.dll.config
+D:\Temp\EA-Fabrikam\dev\Fabrikam.Module1.Uc1.Query\Fabrikam.Module1.Uc1.Query.Services.Wcf\bin\Fabrikam.Module1.Uc1.Query.Services.Wcf.dll
+D:\Temp\EA-Fabrikam\dev\Fabrikam.Module1.Uc1.Query\Fabrikam.Module1.Uc1.Query.Services.Wcf\bin\Fabrikam.Module1.Uc1.Query.Services.Wcf.pdb
+D:\Temp\EA-Fabrikam\dev\Fabrikam.Module1.Uc1.Query\Fabrikam.Module1.Uc1.Query.Services.Wcf\obj\Debug\Fabrikam.Module1.Uc1.Query.Services.Wcf.csprojResolveAssemblyReference.cache
+D:\Temp\EA-Fabrikam\dev\Fabrikam.Module1.Uc1.Query\Fabrikam.Module1.Uc1.Query.Services.Wcf\obj\Debug\Fabrikam.Module1.Uc1.Query.Services.Wcf.dll
+D:\Temp\EA-Fabrikam\dev\Fabrikam.Module1.Uc1.Query\Fabrikam.Module1.Uc1.Query.Services.Wcf\obj\Debug\Fabrikam.Module1.Uc1.Query.Services.Wcf.pdb
