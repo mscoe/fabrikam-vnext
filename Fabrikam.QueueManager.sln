@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A67ABEB5-AA7C-401D-AD2E-D2DE37F70A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DB45944-8197-4C58-AC67-663EF3C51201}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.QueueManager", "src\Fabrikam.QueueManager\Fabrikam.QueueManager.xproj", "{F3F1F261-6A73-45FB-B474-52298CC551CE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.TaskHandler.Interfaces", "src\Fabrikam.TaskHandler.Interfaces\Fabrikam.TaskHandler.Interfaces.xproj", "{0A84D1E5-9000-448B-BA17-55F42452143A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabrikam.Queue.WinServices", "src\Fabrikam.Queue.WinServices\Fabrikam.Queue.WinServices.csproj", "{7918005E-EC93-4116-A539-7ECA61A1514F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1031F3BF-557D-4992-A0BD-1170D190ED46}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Queue.WinServices.Tests", "test\Fabrikam.Queue.WinServices.Tests\Fabrikam.Queue.WinServices.Tests.xproj", "{8C1B0E87-86E6-4D9D-9DB7-D0AF5F5BEE3F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.QueueManager.Tests", "test\Fabrikam.QueueManager.Tests\Fabrikam.QueueManager.Tests.xproj", "{7BBF6F3C-1F3A-4A43-B49C-02FCF4B27331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F1F261-6A73-45FB-B474-52298CC551CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F1F261-6A73-45FB-B474-52298CC551CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F1F261-6A73-45FB-B474-52298CC551CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F1F261-6A73-45FB-B474-52298CC551CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A84D1E5-9000-448B-BA17-55F42452143A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A84D1E5-9000-448B-BA17-55F42452143A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A84D1E5-9000-448B-BA17-55F42452143A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A84D1E5-9000-448B-BA17-55F42452143A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7918005E-EC93-4116-A539-7ECA61A1514F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7918005E-EC93-4116-A539-7ECA61A1514F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7918005E-EC93-4116-A539-7ECA61A1514F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7918005E-EC93-4116-A539-7ECA61A1514F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1B0E87-86E6-4D9D-9DB7-D0AF5F5BEE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1B0E87-86E6-4D9D-9DB7-D0AF5F5BEE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1B0E87-86E6-4D9D-9DB7-D0AF5F5BEE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1B0E87-86E6-4D9D-9DB7-D0AF5F5BEE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBF6F3C-1F3A-4A43-B49C-02FCF4B27331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBF6F3C-1F3A-4A43-B49C-02FCF4B27331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBF6F3C-1F3A-4A43-B49C-02FCF4B27331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBF6F3C-1F3A-4A43-B49C-02FCF4B27331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3F1F261-6A73-45FB-B474-52298CC551CE} = {A67ABEB5-AA7C-401D-AD2E-D2DE37F70A5A}
+		{0A84D1E5-9000-448B-BA17-55F42452143A} = {A67ABEB5-AA7C-401D-AD2E-D2DE37F70A5A}
+		{7918005E-EC93-4116-A539-7ECA61A1514F} = {A67ABEB5-AA7C-401D-AD2E-D2DE37F70A5A}
+		{8C1B0E87-86E6-4D9D-9DB7-D0AF5F5BEE3F} = {1031F3BF-557D-4992-A0BD-1170D190ED46}
+		{7BBF6F3C-1F3A-4A43-B49C-02FCF4B27331} = {1031F3BF-557D-4992-A0BD-1170D190ED46}
+	EndGlobalSection
+EndGlobal

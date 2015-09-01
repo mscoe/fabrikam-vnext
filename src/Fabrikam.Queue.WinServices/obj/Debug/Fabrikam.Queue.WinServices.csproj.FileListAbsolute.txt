@@ -1,0 +1,1 @@
+D:\Temp\EA-Fabrikam\dev\Fabrikam.QueueManager\Fabrikam.Queue.WinServices\bin\Debug\Fabrikam.Queue.WinServices.exe.config

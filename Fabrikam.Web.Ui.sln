@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B3228406-F6C1-4701-AB0A-F69A9F84D572}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0952731-B3C9-44DE-860C-1CC9727F1E60}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Web.Ui", "src\Fabrikam.Web.Ui\Fabrikam.Web.Ui.xproj", "{0A583340-0C76-4B37-A982-543B7F020696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FFCA2DA0-3F62-49BA-A9F3-F090CD5E7733}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Web.Ui.Tests", "test\Fabrikam.Web.Ui.Tests\Fabrikam.Web.Ui.Tests.xproj", "{DB4E1E23-B456-472D-90CE-FDEC578253A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A583340-0C76-4B37-A982-543B7F020696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A583340-0C76-4B37-A982-543B7F020696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A583340-0C76-4B37-A982-543B7F020696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A583340-0C76-4B37-A982-543B7F020696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4E1E23-B456-472D-90CE-FDEC578253A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4E1E23-B456-472D-90CE-FDEC578253A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4E1E23-B456-472D-90CE-FDEC578253A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4E1E23-B456-472D-90CE-FDEC578253A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A583340-0C76-4B37-A982-543B7F020696} = {B3228406-F6C1-4701-AB0A-F69A9F84D572}
+		{DB4E1E23-B456-472D-90CE-FDEC578253A3} = {FFCA2DA0-3F62-49BA-A9F3-F090CD5E7733}
+	EndGlobalSection
+EndGlobal

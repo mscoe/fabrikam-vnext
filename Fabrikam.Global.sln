@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9DDECA5-74B2-498F-88D2-F00D139B12FC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E370617-5EBF-4469-A4BD-8D1C13698821}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Entities.Business", "src\Fabrikam.Entities.Business\Fabrikam.Entities.Business.xproj", "{D83671A7-9622-41B2-BFDD-426426A97FB7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Entities.Data", "src\Fabrikam.Entities.Data\Fabrikam.Entities.Data.xproj", "{B38D5107-AF91-4554-BAED-279E31062686}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Entities.Service", "src\Fabrikam.Entities.Service\Fabrikam.Entities.Service.xproj", "{EAAA424F-42A5-48B6-909A-8D635B984DE6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Infrastructure", "src\Fabrikam.Infrastructure\Fabrikam.Infrastructure.xproj", "{0BB59E14-DA04-4D89-B502-3D88D8A0DAFA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Infrastructure.Interfaces", "src\Fabrikam.Infrastructure.Interfaces\Fabrikam.Infrastructure.Interfaces.xproj", "{BD9DEF78-9743-4539-8CDB-905DB25B0F48}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Module1.Uc1.Business", "src\Fabrikam.Module1.Uc1.Business\Fabrikam.Module1.Uc1.Business.xproj", "{B6DD903D-FF6E-46AA-BC45-4C25B3934BF6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Module1.Uc1.Query.Business.Interfaces", "src\Fabrikam.Module1.Uc1.Query.Business.Interfaces\Fabrikam.Module1.Uc1.Query.Business.Interfaces.xproj", "{AF914855-409D-4366-BFAB-97F5BC7D4A76}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Module1.Uc1.Query.Business", "src\Fabrikam.Module1.Uc1.Query.Business\Fabrikam.Module1.Uc1.Query.Business.xproj", "{D8F06398-70F5-479C-B5AF-B81F82F5ADED}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Web.Ui", "src\Fabrikam.Web.Ui\Fabrikam.Web.Ui.xproj", "{0A583340-0C76-4B37-A982-543B7F020696}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Module1.Uc1.Business.Interfaces", "src\Fabrikam.Module1.Uc1.Business.Interfaces\Fabrikam.Module1.Uc1.Business.Interfaces.xproj", "{7D8AB583-F464-4172-BE59-85B75B56866C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Utilities", "src\Fabrikam.Utilities\Fabrikam.Utilities.xproj", "{81394E3B-D2BB-497F-AE8F-3D9C8BF1A167}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Module1.Uc1.TaskHandler", "src\Fabrikam.Module1.Uc1.TaskHandler\Fabrikam.Module1.Uc1.TaskHandler.xproj", "{6233D295-3C4A-48E5-8B4C-4C2F9DA665DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D83671A7-9622-41B2-BFDD-426426A97FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83671A7-9622-41B2-BFDD-426426A97FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83671A7-9622-41B2-BFDD-426426A97FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83671A7-9622-41B2-BFDD-426426A97FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38D5107-AF91-4554-BAED-279E31062686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38D5107-AF91-4554-BAED-279E31062686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38D5107-AF91-4554-BAED-279E31062686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38D5107-AF91-4554-BAED-279E31062686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAA424F-42A5-48B6-909A-8D635B984DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAA424F-42A5-48B6-909A-8D635B984DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAA424F-42A5-48B6-909A-8D635B984DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAA424F-42A5-48B6-909A-8D635B984DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB59E14-DA04-4D89-B502-3D88D8A0DAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB59E14-DA04-4D89-B502-3D88D8A0DAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB59E14-DA04-4D89-B502-3D88D8A0DAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB59E14-DA04-4D89-B502-3D88D8A0DAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9DEF78-9743-4539-8CDB-905DB25B0F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9DEF78-9743-4539-8CDB-905DB25B0F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9DEF78-9743-4539-8CDB-905DB25B0F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9DEF78-9743-4539-8CDB-905DB25B0F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DD903D-FF6E-46AA-BC45-4C25B3934BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DD903D-FF6E-46AA-BC45-4C25B3934BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DD903D-FF6E-46AA-BC45-4C25B3934BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DD903D-FF6E-46AA-BC45-4C25B3934BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF914855-409D-4366-BFAB-97F5BC7D4A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF914855-409D-4366-BFAB-97F5BC7D4A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF914855-409D-4366-BFAB-97F5BC7D4A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF914855-409D-4366-BFAB-97F5BC7D4A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F06398-70F5-479C-B5AF-B81F82F5ADED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F06398-70F5-479C-B5AF-B81F82F5ADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F06398-70F5-479C-B5AF-B81F82F5ADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F06398-70F5-479C-B5AF-B81F82F5ADED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A583340-0C76-4B37-A982-543B7F020696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A583340-0C76-4B37-A982-543B7F020696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A583340-0C76-4B37-A982-543B7F020696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A583340-0C76-4B37-A982-543B7F020696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8AB583-F464-4172-BE59-85B75B56866C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8AB583-F464-4172-BE59-85B75B56866C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8AB583-F464-4172-BE59-85B75B56866C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8AB583-F464-4172-BE59-85B75B56866C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81394E3B-D2BB-497F-AE8F-3D9C8BF1A167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81394E3B-D2BB-497F-AE8F-3D9C8BF1A167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81394E3B-D2BB-497F-AE8F-3D9C8BF1A167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81394E3B-D2BB-497F-AE8F-3D9C8BF1A167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6233D295-3C4A-48E5-8B4C-4C2F9DA665DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6233D295-3C4A-48E5-8B4C-4C2F9DA665DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6233D295-3C4A-48E5-8B4C-4C2F9DA665DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6233D295-3C4A-48E5-8B4C-4C2F9DA665DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D83671A7-9622-41B2-BFDD-426426A97FB7} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{B38D5107-AF91-4554-BAED-279E31062686} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{EAAA424F-42A5-48B6-909A-8D635B984DE6} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{0BB59E14-DA04-4D89-B502-3D88D8A0DAFA} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{BD9DEF78-9743-4539-8CDB-905DB25B0F48} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{B6DD903D-FF6E-46AA-BC45-4C25B3934BF6} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{AF914855-409D-4366-BFAB-97F5BC7D4A76} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{D8F06398-70F5-479C-B5AF-B81F82F5ADED} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{0A583340-0C76-4B37-A982-543B7F020696} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{7D8AB583-F464-4172-BE59-85B75B56866C} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{81394E3B-D2BB-497F-AE8F-3D9C8BF1A167} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+		{6233D295-3C4A-48E5-8B4C-4C2F9DA665DA} = {5E370617-5EBF-4469-A4BD-8D1C13698821}
+	EndGlobalSection
+EndGlobal
