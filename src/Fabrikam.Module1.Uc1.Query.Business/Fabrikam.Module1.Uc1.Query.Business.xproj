@@ -7,7 +7,7 @@
 
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>d8f06398-70f5-479c-b5af-b81f82f5aded</ProjectGuid>
+    <ProjectGuid>fb0c9607-3f85-4220-afe2-afa9a1228008</ProjectGuid>
     <RootNamespace>Fabrikam.Module1.Uc1.Query.Business</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>

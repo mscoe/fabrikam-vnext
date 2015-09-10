@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7918005E-EC93-4116-A539-7ECA61A1514F}</ProjectGuid>
+    <ProjectGuid>{18D10822-46B0-4378-9F3F-2BA87B2B70D4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Fabrikam.Queue.WinServices</RootNamespace>

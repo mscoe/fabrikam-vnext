@@ -3,18 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B56A79F9-933E-4938-B65D-FEB25266F09F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16DD821B-7389-4830-B13D-09C4EB6C5343}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB277736-24D0-4522-89CB-0133A1C51C19}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7EB899F6-8D63-410A-8E41-8BEE890A2159}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		NuGet.Config = NuGet.Config
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Entities.Business", "src\Fabrikam.Entities.Business\Fabrikam.Entities.Business.xproj", "{D83671A7-9622-41B2-BFDD-426426A97FB7}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Command.Entities.Data", "src\Fabrikam.Command.Entities.Data\Fabrikam.Command.Entities.Data.xproj", "{EDB0CC8D-6BA8-4D0E-93F6-65CCD364DAE8}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Entities.Data", "src\Fabrikam.Entities.Data\Fabrikam.Entities.Data.xproj", "{B38D5107-AF91-4554-BAED-279E31062686}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Command.Entities.Service", "src\Fabrikam.Command.Entities.Service\Fabrikam.Command.Entities.Service.xproj", "{1DE10160-96F2-4051-B4DC-3BC795146D6A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Entities.Service", "src\Fabrikam.Entities.Service\Fabrikam.Entities.Service.xproj", "{EAAA424F-42A5-48B6-909A-8D635B984DE6}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Command.Entities.Business", "src\Fabrikam.Command.Entities.Business\Fabrikam.Command.Entities.Business.xproj", "{102A3E66-5D5F-4F1B-9B5F-7CC6396B8E75}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Query.Entities.Service", "src\Fabrikam.Query.Entities.Service\Fabrikam.Query.Entities.Service.xproj", "{4B8A4408-C8DB-4E63-98CC-85F007446BA5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Query.Entities.Data", "src\Fabrikam.Query.Entities.Data\Fabrikam.Query.Entities.Data.xproj", "{2020CDDA-2380-451E-B506-C01729472ED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,25 +27,35 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D83671A7-9622-41B2-BFDD-426426A97FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D83671A7-9622-41B2-BFDD-426426A97FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D83671A7-9622-41B2-BFDD-426426A97FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D83671A7-9622-41B2-BFDD-426426A97FB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B38D5107-AF91-4554-BAED-279E31062686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B38D5107-AF91-4554-BAED-279E31062686}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B38D5107-AF91-4554-BAED-279E31062686}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B38D5107-AF91-4554-BAED-279E31062686}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAAA424F-42A5-48B6-909A-8D635B984DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAAA424F-42A5-48B6-909A-8D635B984DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAAA424F-42A5-48B6-909A-8D635B984DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAAA424F-42A5-48B6-909A-8D635B984DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB0CC8D-6BA8-4D0E-93F6-65CCD364DAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB0CC8D-6BA8-4D0E-93F6-65CCD364DAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB0CC8D-6BA8-4D0E-93F6-65CCD364DAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB0CC8D-6BA8-4D0E-93F6-65CCD364DAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE10160-96F2-4051-B4DC-3BC795146D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE10160-96F2-4051-B4DC-3BC795146D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE10160-96F2-4051-B4DC-3BC795146D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE10160-96F2-4051-B4DC-3BC795146D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102A3E66-5D5F-4F1B-9B5F-7CC6396B8E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102A3E66-5D5F-4F1B-9B5F-7CC6396B8E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102A3E66-5D5F-4F1B-9B5F-7CC6396B8E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102A3E66-5D5F-4F1B-9B5F-7CC6396B8E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8A4408-C8DB-4E63-98CC-85F007446BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8A4408-C8DB-4E63-98CC-85F007446BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8A4408-C8DB-4E63-98CC-85F007446BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8A4408-C8DB-4E63-98CC-85F007446BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2020CDDA-2380-451E-B506-C01729472ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2020CDDA-2380-451E-B506-C01729472ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2020CDDA-2380-451E-B506-C01729472ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2020CDDA-2380-451E-B506-C01729472ED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D83671A7-9622-41B2-BFDD-426426A97FB7} = {B56A79F9-933E-4938-B65D-FEB25266F09F}
-		{B38D5107-AF91-4554-BAED-279E31062686} = {B56A79F9-933E-4938-B65D-FEB25266F09F}
-		{EAAA424F-42A5-48B6-909A-8D635B984DE6} = {B56A79F9-933E-4938-B65D-FEB25266F09F}
+		{EDB0CC8D-6BA8-4D0E-93F6-65CCD364DAE8} = {16DD821B-7389-4830-B13D-09C4EB6C5343}
+		{1DE10160-96F2-4051-B4DC-3BC795146D6A} = {16DD821B-7389-4830-B13D-09C4EB6C5343}
+		{102A3E66-5D5F-4F1B-9B5F-7CC6396B8E75} = {16DD821B-7389-4830-B13D-09C4EB6C5343}
+		{4B8A4408-C8DB-4E63-98CC-85F007446BA5} = {16DD821B-7389-4830-B13D-09C4EB6C5343}
+		{2020CDDA-2380-451E-B506-C01729472ED8} = {16DD821B-7389-4830-B13D-09C4EB6C5343}
 	EndGlobalSection
 EndGlobal

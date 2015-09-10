@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using Dapper;
 using Fabrikam.Command.Repository.Interfaces;
+using Fabrikam.Command.Repository.DapperHelpers;
 
 namespace Fabrikam.Command.Repository
 {

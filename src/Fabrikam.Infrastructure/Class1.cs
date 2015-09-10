@@ -12,9 +12,5 @@ namespace Fabrikam.Infrastructure
         public Class1()
         {
         }
-        public int TestMethod(int param1)
-        {
-            return param1 + 10;
-        }
     }
 }

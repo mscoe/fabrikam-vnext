@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Fabrikam.Command.Repository.Interfaces;
-using System.Data.SqlClient;
 using System.Data;
+using System.Data.SqlClient;
+using System.Threading.Tasks;
+using Dapper;
+using System.Configuration;
 
 namespace Fabrikam.Command.Repository
 {
@@ -153,7 +153,7 @@ namespace Fabrikam.Command.Repository
                 }
             }
         }
-        ~UnitOfWork()
+        ~DbContext()
         {
             Dispose(false);
         }

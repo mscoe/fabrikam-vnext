@@ -1,1 +1,6 @@
-D:\Temp\EA-Fabrikam\dev\Fabrikam.QueueManager\Fabrikam.Queue.WinServices\bin\Debug\Fabrikam.Queue.WinServices.exe.config
+D:\Temp\EA-Fabrikam-vnext-beta7\dev\Fabrikam.QueueManager\Fabrikam.Queue.WinServices\bin\Debug\Fabrikam.Queue.WinServices.exe.config
+D:\Temp\EA-Fabrikam-vnext-beta7\dev\Fabrikam.QueueManager\Fabrikam.Queue.WinServices\bin\Debug\Fabrikam.Queue.WinServices.exe
+D:\Temp\EA-Fabrikam-vnext-beta7\dev\Fabrikam.QueueManager\Fabrikam.Queue.WinServices\bin\Debug\Fabrikam.Queue.WinServices.pdb
+D:\Temp\EA-Fabrikam-vnext-beta7\dev\Fabrikam.QueueManager\Fabrikam.Queue.WinServices\obj\Debug\Fabrikam.Queue.WinServices.csprojResolveAssemblyReference.cache
+D:\Temp\EA-Fabrikam-vnext-beta7\dev\Fabrikam.QueueManager\Fabrikam.Queue.WinServices\obj\Debug\Fabrikam.Queue.WinServices.exe
+D:\Temp\EA-Fabrikam-vnext-beta7\dev\Fabrikam.QueueManager\Fabrikam.Queue.WinServices\obj\Debug\Fabrikam.Queue.WinServices.pdb
