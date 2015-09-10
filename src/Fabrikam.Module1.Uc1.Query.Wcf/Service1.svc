@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Fabrikam.Module1.Uc1.Query.Wcf.Service1" CodeBehind="Service1.svc.cs" %>
