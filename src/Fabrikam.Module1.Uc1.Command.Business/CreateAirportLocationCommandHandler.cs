@@ -1,4 +1,7 @@
 ﻿using Fabrikam.Command.Entities.Business.Commands;
+using Fabrikam.Command.Entities.Data;
+using Fabrikam.Module1.Uc1.Command.Business.Interfaces;
+using Fabrikam.Module1.Uc1.Command.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,14 +11,14 @@ namespace Fabrikam.Module1.Uc1.Command.Business
 {
     public class CreateAirportLocationCommandHandler : ICommandHandler<CreateAirportLocation>
     {
-        private IRepository<DiaryItem> _repository;
+        private IAirportLocationRepository _repository;
 
-        public CreateItemCommandHandler(IRepository<DiaryItem> repository)
+        public CreateAirportLocationCommandHandler(IAirportLocationRepository repository)
         {
             _repository = repository;
         }
 
-        public void Execute(CreateItemCommand command)
+        public async void Execute(CreateAirportLocation command)
         {
             if (command == null)
             {
@@ -25,9 +28,8 @@ namespace Fabrikam.Module1.Uc1.Command.Business
             {
                 throw new InvalidOperationException("Repository is not initialized.");
             }
-            var aggregate = new DiaryItem(command.Id, command.Title, command.Description, command.From, command.To);
-            aggregate.Version = -1;
-            _repository.Save(aggregate, aggregate.Version);
+            var aggregate = new AirportLocation() { AirportCode= command.AirportCode, AirportLocationId = command.AirportLocationId, AirportName = command.AirportName};
+            await _repository.AddAsync(aggregate);
         }
     }
 }
