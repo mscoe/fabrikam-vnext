@@ -10,14 +10,14 @@ namespace Fabrikam.Command.Repository
 {
     public class DbContext : IDisposable
     {
-        protected string ConnectionName;
+        protected string ConnectionString;
         protected IDbConnection DbConnectionAsync;
         protected IDbTransaction DbTransaction;
 
-        public DbContext(string connectionName, bool requireTransaction = true)
+        public DbContext(string connectionString, bool requireTransaction = true)
         {
-            this.ConnectionName = connectionName;
-            var sb = new SqlConnectionStringBuilder(ConfigurationManager.ConnectionStrings[ConnectionName].ConnectionString) { AsynchronousProcessing = true }.ToString();
+            this.ConnectionString = connectionString;
+            var sb = new SqlConnectionStringBuilder(ConnectionString) { AsynchronousProcessing = true }.ToString();
             DbConnectionAsync = new SqlConnection(sb);
             DbConnectionAsync.Open();
             if (requireTransaction)
