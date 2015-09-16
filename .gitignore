@@ -210,3 +210,6 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# Bower library directories
+/src/Fabrikam.Web.Ui/wwwroot/lib/**

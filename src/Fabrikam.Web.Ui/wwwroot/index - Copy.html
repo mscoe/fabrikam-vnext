@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <title>Fabrikam</title>
+    <base href=""/>
+    <link rel="stylesheet" href="assets/style/app.css" />
+</head>
+<body>
+    <div class="ul">
+        <ul>
+            <li ui-sref-active="active"><a ui-sref="app">Home</a></li>
+            <li ui-sref-active="active"><a ui-sref="app.moduleone">Module One Home</a></li>
+            <li ui-sref-active="active"><a ui-sref="app.moduleonefruits">Module one fruits</a></li>
+        </ul>
+    </div>
+    <div ng-controller="mainController" ng-cloak>
+        <p>{{message}}</p>
+    </div>
+    <div ui-view="topMenu" ng-cloak></div>
+    <div ui-view="sideMenu" ng-cloak></div>
+    <div ui-view="content" ng-cloak></div>
+
+    <script data-main="main.js" src="lib/requirejs/require.js"></script>
+</body>
+</html>
