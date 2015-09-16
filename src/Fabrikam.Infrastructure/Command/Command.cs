@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Fabrikam.Infrastructure.Command.Interface;
+using System;
 
-namespace Fabrikam.Command.Entities.Business.Commands
+namespace Fabrikam.Infrastructure.Command
 {
     [Serializable]
     public class Command : ICommand
