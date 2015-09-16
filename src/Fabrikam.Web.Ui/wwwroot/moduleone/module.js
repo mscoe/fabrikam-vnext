@@ -36,6 +36,22 @@
                         }]
                     }
                 }
+            ).state('app.schedules', {
+                url: 'module1/schedules',
+                    views: {
+                        'content@': {
+                            templateUrl: 'moduleone/partials/schedules.html'
+                        }
+                    }
+                }
+            ).state('app.createNewFlight', {
+                url: 'module1/createNewFlight',
+                views: {
+                    'content@': {
+                        templateUrl: 'moduleone/partials/createNewFlight.html'
+                    }
+                }
+            }
             );
         });
         return module;
