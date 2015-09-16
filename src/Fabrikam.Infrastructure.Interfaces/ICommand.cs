@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Fabrikam.Command.Entities.Business.Commands
+namespace Fabrikam.Infrastructure.Command.Interface
 {
     public interface ICommand
     {
