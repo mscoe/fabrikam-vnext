@@ -7,14 +7,6 @@
     "licenseUrl": "",
 
     "frameworks": {
-        "dnx46": {
-            "dependencies": {
-                "Microsoft.CSharp": "4.0.1-*",
-                "System.Collections": "4.0.11-*",
-                "System.Linq": "4.0.1-*",
-                "System.Runtime": "4.0.21-*",
-                "System.Threading": "4.0.11-*"
-            }
-        }
+        "dnx46": { }
     }
 }
