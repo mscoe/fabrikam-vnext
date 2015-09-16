@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Fabrikam.Module1.Uc1.Command.Business
 {
-    public class CreateAirportLocationCommandHandler : ICommandHandler<CreateAirportLocation>
+    public class CreateAirportLocationCommandHandler : ICommandHandler<CreateAirportLocationCommand>
     {
         private IAirportLocationRepository _repository;
 
@@ -18,7 +18,7 @@ namespace Fabrikam.Module1.Uc1.Command.Business
             _repository = repository;
         }
 
-        public async void Execute(CreateAirportLocation command)
+        public async void Execute(CreateAirportLocationCommand command)
         {
             if (command == null)
             {
@@ -29,7 +29,7 @@ namespace Fabrikam.Module1.Uc1.Command.Business
                 throw new InvalidOperationException("Repository is not initialized.");
             }
             var aggregate = new AirportLocation() { AirportCode= command.AirportCode, AirportLocationId = command.AirportLocationId, AirportName = command.AirportName};
-            await _repository.AddAsync(aggregate);
+            //await _repository.AddAsync(aggregate);
         }
     }
 }
