@@ -17,9 +17,9 @@ namespace Fabrikam.Command.Repository
         private readonly IDbConnection dbConnection;
         private object _parameters;
 
-        protected GenericRepository(string connectionName, string tableName) : base(connectionName)
+        protected GenericRepository(string connectionString, string tableName) : base(connectionString)
         {
-            base.ConnectionName = connectionName;
+            base.ConnectionString = connectionString;
             _tableName = tableName;
             dbConnection = DbConnectionAsync;
         }
