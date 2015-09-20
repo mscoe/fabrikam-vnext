@@ -3,40 +3,32 @@
 // Hook up all modules to the 'app' module
 define([
     'angular',
+    'angular.translate',
     'ui.router',
+    'ui.bootstrap',
+    'angular.sanitize',
+    'angular.idle',
     'app.config',
-    'app.moduleone'],
+    'app.schedules'],
     function (angular) {
         var app = angular.module('app', [
-            'app.config', 'ui.router',
-            'app.moduleone'
+            'pascalprecht.translate','app.config', 'ui.router','ui.bootstrap','ngSanitize','ngIdle',
+            'app.schedules'
         ])
         .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             $locationProvider.html5Mode(false);
             $urlRouterProvider.otherwise('/');
-
             $stateProvider.state('app', {
                 url: '/',
                 views: {
                     //'topMenu@': { templateUrl: 'core/header.html' },
                     //'sideMenu@': { templateUrl: 'core/sidebar.html'},
-                    'content@': { templateUrl: 'core/blank.html'}
+                    'content@': { templateUrl: 'core/dashboard.html'}
                 }
             })
-            .state('app.dashboardv1', {
-                url: 'default',
-                views: { 'content@': { templateUrl: 'core/dashboardv1.html' } }
-            })
-            .state('app.dashboardv2', {
-                url: 'default',
-                views: { 'content@': { templateUrl: 'core/dashboardv1.html' } }
-            })
-            .state('app.calendar', {
-                url: 'calendar',
-                views: { 'content@': { templateUrl: 'core/calendar.html' } }
-            });
         })
-        //.run(function ($rootScope) {
+        .run(function ($rootScope,$state) {
+            $rootScope.$state = $state;
 
         //    $rootScope
         //        .$on('$stateChangeStart',
@@ -74,12 +66,13 @@ define([
         //                console.log("View Load: the view is loaded, and DOM rendered!");
         //            });
 
-        //})
-        ;
-    var x = 0;
-    app.controller('mainController',['$scope','config', function ($scope,config) {
-        $scope.message = 'It is working finally. CONSTANT1='+config.CONSTANT1;
-    }]);
+        });
+
+        app.controller('translateCtrl', function translateCtrl($translate, $scope) {
+            $scope.changeLanguage = function (langKey) {
+                $translate.use(langKey);
+            };
+        });
 
     return app;
 });

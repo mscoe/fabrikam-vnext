@@ -6,3 +6,65 @@
 [ng\:cloak], [ng-cloak], .ng-cloak {
   display: none !important;
 }
+
+.app-inline-checkbox{
+    margin-left:0px;
+    margin-right:10px;
+    font-weight:normal;
+}
+
+.app-gridStyle-h200{
+    height:200px;
+}
+
+.app-row-0{
+    margin-right:0px;
+    margin-left:0px;
+}
+
+.app-navbar-static-top{
+    margin-bottom:-1px;
+    background-color: white;
+    border-bottom-color: #F67F14;
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+}
+
+.app-border-bottom-0{
+    border-bottom-width:0px;
+}
+
+.btn-primary {
+    background-color: #F67F14;
+    border-color: #F67F14;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary.active:focus {
+    background-color: #F67F14;
+    border-color: #F67F14;
+    color: #FFFFFF;
+}
+
+.app-left-nav > li.active {
+    border-left: 4px solid #F67F14;
+    background: #293846;
+}
+
+.label-primary, .badge-primary {
+    background-color: #F67F14;
+    color: #FFFFFF;
+}
+
+.logo{
+    background-image:url("../images/spriteSiteHeader.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin-top:5px;
+}
