@@ -4,6 +4,6 @@
   "private": true,
   "devDependencies": {
     "bower": "1.5.2",
-    "grunt": "0.4.5"
+    "gulp": "3.9.0"
   }
 }
