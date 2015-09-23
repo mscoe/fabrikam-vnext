@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Fabrikam.Command.Repository.DapperHelpers
 {
-    public class GetSqlQuery
+    public static class GetSqlQuery
     {
 
         public static string Insert(object parameters, string tableName)
