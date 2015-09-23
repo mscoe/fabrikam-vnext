@@ -8,5 +8,6 @@
 
   "frameworks": {
     "dnx46": { }
-  }
+  },
+  "dependencies": {"Fabrikam.Infrastructure.Interfaces": ""}
 }

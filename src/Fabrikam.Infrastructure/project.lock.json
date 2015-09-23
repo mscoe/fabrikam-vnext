@@ -2,11 +2,22 @@
   "locked": false,
   "version": 1,
   "targets": {
-    "DNX,Version=v4.6": {}
+    "DNX,Version=v4.6": {
+      "Fabrikam.Infrastructure.Interfaces/1.0.0": {
+        "type": "project"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Fabrikam.Infrastructure.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Fabrikam.Infrastructure.Interfaces/project.json"
+    }
+  },
   "projectFileDependencyGroups": {
-    "": [],
+    "": [
+      "Fabrikam.Infrastructure.Interfaces "
+    ],
     "DNX,Version=v4.6": []
   }
 }
