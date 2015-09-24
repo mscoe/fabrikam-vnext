@@ -7,6 +7,6 @@ namespace Fabrikam.Infrastructure.Command.Interface
 {
     public interface ICommandBus
     {
-        void Send<T>(T message);
+        void Send<T>(T command) where T : ICommand;
     }
 }
