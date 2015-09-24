@@ -17,7 +17,7 @@ namespace Fabrikam.Infrastructure.Command
 
         public void Send<T>(T message)
         {
-            foreach (var c in this._handlers)
+            foreach (var c in _handlers)
                 c.Execute(message);
         }
     }
