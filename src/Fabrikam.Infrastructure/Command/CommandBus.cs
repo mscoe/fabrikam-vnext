@@ -1,4 +1,5 @@
 ﻿using Fabrikam.Infrastructure.Command.Interface;
+using Fabrikam.Infrastructure.DependencyResolver.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,17 +9,16 @@ namespace Fabrikam.Infrastructure.Command
 {
     public class CommandBus:ICommandBus
     {
-        private readonly IEnumerable<ICommandHandler> _handlers;
-
-        public CommandBus(params ICommandHandler[] handlers)
+        IContainer _container;
+        public CommandBus(IContainer container)
         {
-            _handlers = handlers;
+            _container = container;
         }
 
-        public void Send<T>(T message)
+        public void Send<T>(T command) where T: ICommand
         {
-            foreach (var c in _handlers)
-                c.Execute(message);
+            var handler = _container.Resolve<ICommandHandler<T>>();
+            handler.Execute(command);
         }
     }
 }

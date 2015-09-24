@@ -4,9 +4,4 @@
     {
         void Execute(T command);
     }
-
-    public interface ICommandHandler
-    {
-        void Execute(object message);
-    }
 }
