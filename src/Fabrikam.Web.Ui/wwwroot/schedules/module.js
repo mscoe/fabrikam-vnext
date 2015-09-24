@@ -28,6 +28,11 @@
                             }, {
                                 name: 'ui.grid',
                                 files: ['lib/angular-ui-grid/ui-grid.js']
+                            }, {
+                                files: ['lib/footable/css/footable.core.min.css', 'lib/footable/dist/footable.all.min.js']
+                            }, {
+                                name: 'ui.footable',
+                                files: ['lib/angular-footable/dist/angular-footable.js']
                             }
                         ]);
                     }]
