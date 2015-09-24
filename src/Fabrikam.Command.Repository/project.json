@@ -1,28 +1,17 @@
 ﻿{
-    "version": "1.0.0-*",
-    "description": "Fabrikam.Command.Repository Class Library",
-    "authors": [ "M1009232" ],
-    "tags": [ "" ],
-    "projectUrl": "",
-    "licenseUrl": "",
-    "frameworks": {
-
-        "dnx46": {
-            "Microsoft.CSharp": "4.0.1-beta-*",
-            "System.Collections": "4.0.11-beta-*",
-            "System.Linq": "4.0.1-beta-*",
-            "System.Runtime": "4.0.21-beta-*",
-            "System.Threading": "4.0.11-beta-*",
-            "System.Data.SqlClient": "4.0.0-beta-*",
-            "frameworkAssemblies": {
-                "System.Configuration": "4.0.0.0"
-            }
-        }
-    },
-    "dependencies": {
-        "Dapper": "1.42.0",
-        "System.Data.Common": "4.0.1-beta-23225",
-        "Fabrikam.Infrastructure": "1.0.0-*",
-        "Fabrikam.Command.Repository.Interfaces": "1.0.0-*"
-    }
+  "version": "1.0.0-*",
+  "description": "Fabrikam.Command.Repository Class Library",
+  "authors": [ "M1009232" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx46": { }
+  },
+  "dependencies": {
+    "Dapper": "1.42.0",
+    "System.Data.Common": "4.0.1-beta-23225",
+    "Fabrikam.Infrastructure": "1.0.0-*",
+    "Fabrikam.Command.Repository.Interfaces": "1.0.0-*"
+  }
 }
