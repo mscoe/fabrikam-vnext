@@ -4,6 +4,6 @@ namespace Fabrikam.Infrastructure.Command.Interface
 {
     public interface ICommand
     {
-        Guid Id { get; }
+        string Id { get; }
     }
 }
