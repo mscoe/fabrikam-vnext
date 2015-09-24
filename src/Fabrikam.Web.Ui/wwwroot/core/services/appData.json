@@ -1,0 +1,43 @@
+﻿{
+  "data": {
+    "FlightData": {
+      "Total": 100,
+      "LastUpdated": 10,
+      "Percent": 97
+    },
+    "SetData": {
+      "Total": 200,
+      "LastUpdated": 1,
+      "Percent": 99
+    },
+    "FlixData": {
+      "Total": 100,
+      "LastUpdated": 2,
+      "Percent": 59
+    },
+    "ScheduleData": {
+      "Total": 200,
+      "LastUpdated": 1,
+      "Percent": 96
+    },
+    "TaskData": [
+      "Create Schedule record BLR-DXB",
+      "Create Schedule record MAA-DXB",
+      "Generate SSIM file",
+      "Load files",
+      "Create Schedule record DXB-MMM",
+      "Create Schedule record BXB-DXB"
+    ],
+    "MessageData": {
+      "Number1": 10,
+      "Number2": 20,
+      "Messages": [
+        {
+          "Name": "Monica Smith",
+          "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+          "Time": 1
+        }
+      ]
+    }
+  }  
+}

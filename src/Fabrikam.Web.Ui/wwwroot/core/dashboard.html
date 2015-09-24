@@ -1,3 +1,98 @@
-﻿<div class="wrapper wrapper-content animated fadeIn">
-    <h2>Dashboard</h2>
+﻿<div class="wrapper wrapper-content animated fadeIn" ng-controller="appController">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="ibox-title">
+                <span class="label label-success pull-right">1 Month</span>
+                <h5>Suspended Flights</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins">{{Flight.Total}}</h1>
+                <div class="stat-percent font-bold text-success">{{Flight.Percent}}% <i class="fa fa-bolt"></i></div>
+                <small>Updated {{Flight.LastUpdated}} minutes ago</small>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="ibox-title">
+                <span class="label label-success pull-right">1 Week</span>
+                <h5>SET</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins">{{Set.Total}}</h1>
+                <div class="stat-percent font-bold text-success">{{Set.Percent}}% <i class="fa fa-bolt"></i></div>
+                <small>Updated {{Set.LastUpdated}} minutes ago</small>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="ibox-title">
+                <span class="label label-success pull-right">1 Week</span>
+                <h5>FLIX</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins">{{Flix.Total}}</h1>
+                <div class="stat-percent font-bold text-success">{{Flix.Percent}}% <i class="fa fa-bolt"></i></div>
+                <small>Updated {{Flix.LastUpdated}} minutes ago</small>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="ibox-title">
+                <span class="label label-success pull-right">Today</span>
+                <h5>Recent Added Schedules</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins">{{RecentSchedules.Total}}</h1>
+                <div class="stat-percent font-bold text-success">{{RecentSchedules.Percent}}% <i class="fa fa-bolt"></i></div>
+                <small>Updated {{RecentSchedules.LastUpdated}} minutes ago</small>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Schedule Task</h5>
+                    <div ibox-tools>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <ul class="todo-list m-t small-list" ng-repeat="task in Tasks.items">
+                        <li>
+                            <!--<input type="checkbox" id="{{task}}" ng-checked="isTask(task)" />-->
+                            <input type="checkbox" id="{{task}}" ng-true-value="{{task}}" ng-model="Task.items[$index]" />
+                          
+                            <span class="m-l-xs">{{task}}</span>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5></h5>
+                    <div ibox-tools>
+                    </div>
+                </div>
+                <div>
+                    <div class="ibox-content ibox-heading">
+                        <h3><i class="fa fa-envelope-o"></i> New messages</h3>
+                        <small><i class="fa fa-tim"></i> You have {{Mail.Number1}} new messages and {{Mail.Number2}} waiting in draft folder.</small>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="feed-activity-list">
+                            <div class="feed-element" ng-repeat="message in Mail.messages">
+                                <div>
+                                    <small class="pull-right text-navy">{{message.Time}}m ago</small>
+                                    <strong>{{message.Name}}</strong>
+                                    <div>{{message.Description}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
