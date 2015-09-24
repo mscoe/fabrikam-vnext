@@ -9,15 +9,15 @@ namespace Fabrikam.Infrastructure.Command
 {
     public class CommandBus:ICommandBus
     {
-        IContainer _container;
-        public CommandBus(IContainer container)
+        ICommandHandlerFactory _container;
+        public CommandBus(ICommandHandlerFactory container)
         {
             _container = container;
         }
 
         public void Send<T>(T command) where T: ICommand
         {
-            var handler = _container.Resolve<ICommandHandler<T>>();
+            var handler = _container.GetHandler<T>();
             handler.Execute(command);
         }
     }
