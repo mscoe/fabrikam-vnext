@@ -1,5 +1,6 @@
 ﻿using Fabrikam.Command.Entities.Business.Commands;
 using Fabrikam.Command.Entities.Data;
+using Fabrikam.Infrastructure.Interfaces.Command;
 using Fabrikam.Module1.Uc1.Command.Business.Interfaces;
 using Fabrikam.Module1.Uc1.Command.Repository.Interfaces;
 using System;
