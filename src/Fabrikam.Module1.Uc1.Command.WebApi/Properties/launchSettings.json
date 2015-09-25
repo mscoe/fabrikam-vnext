@@ -1,10 +1,11 @@
 {
   "profiles": {
     "IIS Express": {
-      "commandName" : "IISExpress",
+      "commandName": "IISExpress",
       "launchBrowser": true,
       "launchUrl": "api/values",
-      "environmentVariables" : {
+      "environmentVariables": {
+        "DNX_IIS_RUNTIME_FRAMEWORK": "dnx46",
         "ASPNET_ENV": "Development"
       }
     }
