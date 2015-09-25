@@ -1,4 +1,4 @@
-﻿namespace Fabrikam.Infrastructure.Command.Interface
+﻿namespace Fabrikam.Infrastructure.Interfaces.Command
 {
     public interface ICommandHandler<T> where T : ICommand
     {
