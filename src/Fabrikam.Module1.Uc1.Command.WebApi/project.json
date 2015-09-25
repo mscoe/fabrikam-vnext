@@ -2,14 +2,17 @@
   "webroot": "wwwroot",
   "version": "1.0.0-*",
 
-    "dependencies": {
-        "Fabrikam.Command.Entities.Service": "1.0.0",
-        "Microsoft.AspNet.Mvc": "6.0.0-beta7",
-        "Microsoft.AspNet.Server.IIS": "1.0.0-beta7",
-        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta7",
-      "Microsoft.AspNet.StaticFiles": "1.0.0-beta7",
-      "Autofac": "3.5.2"
-    },
+  "dependencies": {
+    "Fabrikam.Command.Entities.Service": "1.0.0",
+    "Microsoft.AspNet.Mvc": "6.0.0-beta7",
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta7",
+    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta7",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-beta7",
+    "Autofac": "4.0.0-beta7-130",
+    "Fabrikam.Infrastructure.Interfaces": "1.0.0-*",
+    "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6",
+    "Autofac.Dnx": "4.0.0-alpha2"
+  },
 
   "commands": {
     "web": "Microsoft.AspNet.Hosting --config hosting.ini"
