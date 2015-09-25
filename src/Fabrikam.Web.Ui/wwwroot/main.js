@@ -1,5 +1,6 @@
 ﻿require.config({
     baseUrl: '',
+    waitSeconds: 60,
     // Here paths are set relative to `/source` folder
     paths: {
         'angular': 'lib/angular/angular',
