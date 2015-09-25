@@ -1,10 +1,10 @@
 ﻿using Autofac;
-using Fabrikam.Infrastructure.DependencyResolver.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Fabrikam.Infrastructure.Command.Interface;
+using Fabrikam.Infrastructure.Interfaces.Messaging;
+using Fabrikam.Infrastructure.Interfaces.Command;
 
 namespace Fabrikam.Infrastructure.DependencyResolver.Autofac
 {

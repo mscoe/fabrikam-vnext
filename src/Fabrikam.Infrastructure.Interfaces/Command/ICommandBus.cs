@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Fabrikam.Infrastructure.Command.Interface
+namespace Fabrikam.Infrastructure.Interfaces.Command
 {
     public interface ICommandBus
     {

@@ -1,5 +1,5 @@
-﻿using Fabrikam.Infrastructure.Command.Interface;
-using Fabrikam.Infrastructure.DependencyResolver.Interfaces;
+﻿using Fabrikam.Infrastructure.Interfaces.Command;
+using Fabrikam.Infrastructure.Interfaces.Messaging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
