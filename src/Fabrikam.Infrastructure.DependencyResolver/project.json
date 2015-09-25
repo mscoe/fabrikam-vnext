@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Fabrikam.Infrastructure.Autofac Class Library",
+  "authors": [ "M1023879" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "dnx46": { }
+  },
+  "dependencies": {
+    "Fabrikam.Infrastructure.Interfaces": "1.0.0-*",
+    "Autofac": "3.5.2"
+  }
+
+}

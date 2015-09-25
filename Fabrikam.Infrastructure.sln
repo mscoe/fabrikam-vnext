@@ -35,7 +35,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Command.Repository
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Query.Repository.Tests", "test\Fabrikam.Query.Repository.Tests\Fabrikam.Query.Repository.Tests.xproj", "{093183BF-3666-4BFC-BF1C-1F8859CB481A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Infrastructure.AutofacFactory", "src\Fabrikam.Infrastructure.DependencyResolver\Fabrikam.Infrastructure.AutofacFactory.xproj", "{298E1CFD-AAC0-4672-94C7-60D7AAF94505}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fabrikam.Infrastructure.Autofac", "src\Fabrikam.Infrastructure.DependencyResolver\Fabrikam.Infrastructure.Autofac.xproj", "{298E1CFD-AAC0-4672-94C7-60D7AAF94505}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
