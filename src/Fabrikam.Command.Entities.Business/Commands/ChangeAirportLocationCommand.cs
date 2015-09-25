@@ -2,7 +2,7 @@
 
 namespace Fabrikam.Command.Entities.Business.Commands
 {
-    public class ChangeAirportLocationCommand : Command
+    public class ChangeAirportLocationCommand : Fabrikam.Infrastructure.Command.Command
     {
         public int AirportLocationId { get; set; }
 
@@ -10,7 +10,7 @@ namespace Fabrikam.Command.Entities.Business.Commands
 
         public string AirportCode { get; set; }
 
-        public ChangeAirportLocationCommand(Guid aggregateId, int airportLocationId, string airportName, string airportCode, int version) : base(aggregateId, version)
+        public ChangeAirportLocationCommand(string aggregateId, int airportLocationId, string airportName, string airportCode, int version) : base(aggregateId, version)
         {
             AirportLocationId = airportLocationId;
             AirportName = airportName;

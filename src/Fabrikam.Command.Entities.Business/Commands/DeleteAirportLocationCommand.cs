@@ -1,10 +1,11 @@
 ﻿using System;
+using Fabrikam.Infrastructure.Command;
 
 namespace Fabrikam.Command.Entities.Business.Commands
 {
-    public class DeleteAirportLocationCommand : Command
+    public class DeleteAirportLocationCommand : Fabrikam.Infrastructure.Command.Command
     {
-        public DeleteAirportLocationCommand(Guid id, int version) : base(id, version)
+        public DeleteAirportLocationCommand(string id, int version) : base(id, version)
         {
         }
     }

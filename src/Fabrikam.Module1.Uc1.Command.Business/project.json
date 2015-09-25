@@ -6,21 +6,14 @@
   "projectUrl": "",
   "licenseUrl": "",
     "frameworks": {
-        "dnx46": {
-            "dependencies": {
-                "Microsoft.CSharp": "4.0.1-beta-23225",
-                "System.Collections": "4.0.11-beta-23225",
-                "System.Linq": "4.0.1-beta-23225",
-                "System.Runtime": "4.0.21-beta-23225",
-                "System.Threading": "4.0.11-beta-23225"
-            }
-        }
+        "dnx46": { }
     },
     "dependencies": {
         "AutoMapper": "4.0.4",
         "Fabrikam.Command.Entities.Business": "1.0.0",
         "Fabrikam.Command.Entities.Data": "1.0.0",
         "Fabrikam.Module1.Uc1.Command.Business.Interfaces": "1.0.0-*",
-        "Fabrikam.Module1.Uc1.Command.Repository.Interfaces": "1.0.0-*"
+      "Fabrikam.Module1.Uc1.Command.Repository.Interfaces": "1.0.0-*",
+      "Fabrikam.Infrastructure.Interfaces": "1.0.0"
     }
 }

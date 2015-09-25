@@ -9,6 +9,7 @@
         "dnx46": { }
     },
     "dependencies": {
-        "NuGet.CommandLine": "2.8.6"
+      "NuGet.CommandLine": "2.8.6",
+      "Fabrikam.Infrastructure": "1.0.0"
     }
 }

@@ -1,4 +1,4 @@
-﻿using Fabrikam.Infrastructure.Command.Interface;
+﻿using Fabrikam.Infrastructure.Interfaces.Command;
 using System;
 
 namespace Fabrikam.Infrastructure.Command
