@@ -35,43 +35,5 @@
                 messages: data["data"]["MessageData"]["Messages"]
             }
         });
-        //$scope.data = {
-        //    FlightData: {
-        //        Total: 900,
-        //        LastUpdated: 10,
-        //        Percent: 97
-        //    },
-        //    SET: {
-        //        Total: 200,
-        //        LastUpdated: 1,
-        //        Percent: 99
-        //    },
-        //    FLIX: {
-        //        Total: 100,
-        //        LastUpdated: 2,
-        //        Percent: 59
-        //    },
-        //    SCHDULES: {
-        //        Total: 200,
-        //        LastUpdated: 1,
-        //        Percent: 96
-        //    },
-        //    tasks: [
-        //        'Create Schedule record BLR-DXB',
-        //        'Create Schedule record MAA-DXB',
-        //        'Generate SSIM file',
-        //        'Load files',
-        //        'Create Schedule record DXB-MMM',
-        //        'Create Schedule record BXB-DXB'
-        //    ],
-        //    messages: [
-        //        {
-        //            Name: 'Monica Smith',
-        //            Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum',
-        //            Time: '1'
-        //        }
-        //    ]
-        //}
-       
     }]);
 });
