@@ -8,10 +8,10 @@
     "Microsoft.AspNet.Server.IIS": "1.0.0-beta7",
     "Microsoft.AspNet.Server.WebListener": "1.0.0-beta7",
     "Microsoft.AspNet.StaticFiles": "1.0.0-beta7",
-    "Autofac": "4.0.0-beta7-130",
     "Fabrikam.Infrastructure.Interfaces": "1.0.0-*",
     "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6",
-    "Autofac.Dnx": "4.0.0-alpha2"
+    "Autofac": "4.0.0-beta7-*",
+    "Autofac.Framework.DependencyInjection": "4.0.0-beta7-130"
   },
 
   "commands": {
