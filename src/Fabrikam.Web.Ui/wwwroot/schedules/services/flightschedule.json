@@ -1,0 +1,53 @@
+﻿{
+  "flights": [
+
+    {
+      "Leg": "01",
+      "Date": "10C9Y",
+      "Dep. Time": "02:25",
+      "Arr. Time": "04:25",
+      "DOW": "1 2 3 6",
+      "A/T": "635",
+      "Org.Terminal": "1",
+      "Dep. Terminal": "3",
+      "E-Tkt": "True",
+      "MealCode": "L/L"
+    },
+    {
+      "Leg": "01",
+      "Date": "10C9Y",
+      "Dep. Time": "02:25",
+      "Arr. Time": "04:25",
+      "DOW": "1 2 3 6",
+      "A/T": "635",
+      "Org.Terminal": "1",
+      "Dep. Terminal": "3",
+      "E-Tkt": "True",
+      "MealCode": "L/L"
+    },
+    {
+      "Leg": "01",
+      "Date": "10C9Y",
+      "Dep. Time": "02:25",
+      "Arr. Time": "04:25",
+      "DOW": "1 2 3 6",
+      "A/T": "635",
+      "Org.Terminal": "1",
+      "Dep. Terminal": "3",
+      "E-Tkt": "True",
+      "MealCode": "L/L"
+    },
+    {
+      "Leg": "01",
+      "Date": "10C9Y",
+      "Dep. Time": "02:25",
+      "Arr. Time": "04:25",
+      "DOW": "1 2 3 6",
+      "A/T": "635",
+      "Org.Terminal": "1",
+      "Dep. Terminal": "3",
+      "E-Tkt": "True",
+      "MealCode": "L/L"
+    }
+  ]
+}

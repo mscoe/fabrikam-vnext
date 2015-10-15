@@ -360,7 +360,7 @@
                                     <div class="col-sm-8" >
                                         <select class="form-control m-b"
                                              ng-model="originInSearchQuery"
-                                             ng-options="airport.Id as airport.Name disable when airport.Id==destinationInSearchQuery for airport in airports">
+                                             ng-options="airport.Id as airport.Name for airport in airports">
                                         </select>
                                     </div>
                                 </div>
@@ -369,7 +369,7 @@
                                     <div class="col-sm-8">
                                         <select class="form-control m-b"
                                                 ng-model="destinationInSearchQuery"
-                                                ng-options="airport.Id as airport.Name disable when airport.Id==originInSearchQuery for airport in airports">
+                                                ng-options="airport.Id as airport.Name for airport in airports">
                                         </select>
                                     </div>
                                 </div>
