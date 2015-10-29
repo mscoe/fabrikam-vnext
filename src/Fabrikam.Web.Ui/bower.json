@@ -21,9 +21,7 @@
     "angular-ui-grid": "3.0.6",
     "ng-idle": "1.1.0",
     "angular-bootstrap-checkbox": "0.3.1",
-    "angular-mocks": "1.4.7"
-  },
-  "resolutions": {
-    "angular": ">=1.2.0"
+    "angular-mocks": "1.4.7",
+    "stacktrace-js": "1.0.1"
   }
 }

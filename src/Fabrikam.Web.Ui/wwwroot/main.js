@@ -18,7 +18,13 @@
         'app.schedules': 'schedules/module',
         'app.services': 'services/module',
         'app.directives': 'assets/inspinia/js/directives',
-        'app.translations':'assets/inspinia/js/translations'
+        'app.translations': 'assets/inspinia/js/translations',
+        'stacktrace': 'lib/stacktrace-js/stacktrace',
+        'error-stack-parser': 'lib/error-stack-parser/error-stack-parser',
+        'stacktrace-gps': 'lib/stacktrace-gps/stacktrace-gps',
+        'stack-generator': 'lib/stack-generator/stack-generator',
+        'source-map': 'lib/source-map/dist/source-map',
+        'stackframe': 'lib/stackframe/stackframe'
     },
 
     shim: {
@@ -38,6 +44,12 @@
         'app': ['app.config', 'app.schedules']
     }
 });
+
+require(['stacktrace'], function (stacktrace) {
+    'use strict';
+    window.printStackTrace = stacktrace;
+});
+
 
 require(['angular', 'app', 'metisMenu', 'app.directives', 'app.translations'], function (angular) {
     angular

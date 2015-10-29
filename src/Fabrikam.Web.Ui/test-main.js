@@ -32,7 +32,13 @@ requirejs.config({
         'app.services': 'services/module',
         'app.directives': 'assets/inspinia/js/directives',
         'app.translations': 'assets/inspinia/js/translations',
-        'app.schedules.mock':'schedules_test/services_Specs/mockServices'
+        'app.schedules.mock': 'schedules_test/services_Specs/mockServices',
+        'stacktrace': 'lib/stacktrace-js/stacktrace',
+        'error-stack-parser': 'lib/error-stack-parser/error-stack-parser',
+        'stacktrace-gps': 'lib/stacktrace-gps/stacktrace-gps',
+        'stack-generator': 'lib/stack-generator/stack-generator',
+        'source-map': 'lib/source-map/dist/source-map',
+        'stackframe': 'lib/stackframe/stackframe'
     },
 
     shim: {
